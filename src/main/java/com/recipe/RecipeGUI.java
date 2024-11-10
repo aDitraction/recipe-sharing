@@ -1,6 +1,7 @@
 package com.recipe;
 
 import javax.swing.*;
+import java.awt.GraphicsEnvironment;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.List;
@@ -148,6 +149,12 @@ public class RecipeGUI {
 
     // Main method to start the application
     public static void main(String[] args) {
+        // Check if the environment is headless
+        if (GraphicsEnvironment.isHeadless()) {
+            System.err.println("This environment does not support GUI components.");
+            return; // Exit if the system is headless
+        }
+
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 RecipeGUI window = new RecipeGUI();
