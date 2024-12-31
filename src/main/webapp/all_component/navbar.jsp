@@ -1,3 +1,4 @@
+<div class="bs-include">	
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -23,9 +24,9 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="LoginRegistration.jsp" tabindex="-1" >Login</a>
+          </li> 
         </ul>
         <form class="d-flex">
         	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -34,3 +35,4 @@
       </div>
     </div>
   </nav>
+ </div>
