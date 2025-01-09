@@ -1,5 +1,4 @@
-/* 
-
+:not(.hallo){
 .bg-custom{
 	background-color: #303f9f;
 }
@@ -8,7 +7,7 @@
 	color: #303f9f;
 	border-radius: 15px;	
 }
-	 */
+	
 	 
 	 *{
     margin: 0;
@@ -184,6 +183,7 @@ form button[type="submit"]:hover,.recipie button:hover,.recipe-close-btn:hover{
     justify-content: center;
     align-items: center;
 }
+}
 /* Scroll Bar to Recipie details */
 .recipe-details::-webkit-scrollbar{
     width: 10px;
@@ -201,7 +201,7 @@ body::-webkit-scrollbar{
 
 }
 
-.ody::-webkit-scrollbar-thumb{
+.body::-webkit-scrollbar-thumb{
     background: #a1a1a1;
 }
 

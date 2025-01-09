@@ -8,17 +8,17 @@
 <%@include file="all_component/allCss.jsp" %>
 </head>
 <body>
-
-    <header>
-        <nav>
+<header>
+<nav>
             <h1>Recipes4U</h1>
             <!-- <form >
                 <input type="text" placeholder="Search for recepies" class="searchBox">
                 <button type="submit" class="searchButton">Search</button>
             </form> -->
-        </nav>
-        <%@include file="all_component/navbar.jsp" %>
-    </header>
+</nav>
+
+    <%@include file="all_component/navbar.jsp" %>
+<header>    
     <main>
         <section>
             <div class="recipe-container">
