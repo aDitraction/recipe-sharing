@@ -9,16 +9,7 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <h1>Recipes4U</h1>
-            <!-- <form >
-                <input type="text" placeholder="Search for recepies" class="searchBox">
-                <button type="submit" class="searchButton">Search</button>
-            </form> -->
-        </nav>
-        <%@include file="all_component/navbar.jsp" %>
-    </header>
+    <%@include file="all_component/navbar.jsp" %>
     <main>
         <section>
             <div class="recipe-container">
